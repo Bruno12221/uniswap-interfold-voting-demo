@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "scope": "local aggregation key and guest identity only; no computation proof",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "run": "t08-aggregation-20261020T183811381679Z",
+  "completedAt": "2026-10-20T18:38:25.754534+00:00",
+  "phases": [
+    {
+      "phase": "aggregation",
+      "exitCode": 0,
+      "seconds": 14.15,
+      "peakRssKiB": 2087904
+    }
+  ],
+  "artifacts": [
+    {
+      "path": ".local/runs/t08-aggregation-20261020T183811381679Z/prepared/aggregation.pk",
+      "bytes": 275167,
+      "sha256": "9f3ddbf1a5cfe9b6c9d240b670b60acde1a65c68a0550d0c1557d8bf54bdaa43"
+    },
+    {
+      "path": ".local/runs/t08-aggregation-20261020T183811381679Z/prepared/identity.json",
+      "bytes": 207,
+      "sha256": "a8c6094c347f49fe62f080d9e2cfd365e2b201bc7661de00bd4dda0801a8dfde"
+    }
+  ],
+  "app_commit": {
+    "app_exe_commit": "0x005e6e29fb03b36a77337f0eb1fcd67db48f81cc4d8939dc44d578e4e43d2d26",
+    "app_vm_commit": "0x009034802c4d22df352e22772fc613453a77e387b95479ef296bbef78edc588a"
+  }
+}

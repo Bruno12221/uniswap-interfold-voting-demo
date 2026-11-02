@@ -1,0 +1,8 @@
+diff --git a/crates/support-scripts/dev/src/main.rs b/crates/support-scripts/dev/src/main.rs
+index 0b495ac9..40395d36 100644
+--- a/crates/support-scripts/dev/src/main.rs
++++ b/crates/support-scripts/dev/src/main.rs
+@@ -71,2 +71,3 @@ async fn main() -> Result<()> {
+     })
++    .with_host("127.0.0.1")
+     .build()?;

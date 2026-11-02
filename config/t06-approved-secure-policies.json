@@ -1,0 +1,7 @@
+{
+  "schemaVersion": 1,
+  "policyHashes": [
+    "0x97f8b44ffc7c7a6e28a0b8d3ccaa498a217f1ace5ca26f5d494201fc57a47f02"
+  ],
+  "scope": "One exact local synthetic application replay on chain 31337. Original proof-bound inputs and deployments only. This does not approve a live service or a new deployment."
+}

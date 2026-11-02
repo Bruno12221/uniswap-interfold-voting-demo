@@ -1,0 +1,34 @@
+{
+  "description": "Public synthetic census fixture. These addresses are labels, not real participants.",
+  "context": {
+    "schemaVersion": 1,
+    "purpose": "synthetic-unit",
+    "space": "local-synthetic",
+    "proposalId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "proposalTextHash": "0x2222222222222222222222222222222222222222222222222222222222222222",
+    "choices": ["Synthetic option A", "Synthetic option B"],
+    "sourceChainId": "31337",
+    "snapshotBlock": "0",
+    "snapshotBlockHash": "0x3333333333333333333333333333333333333333333333333333333333333333",
+    "strategy": { "name": "synthetic-unit", "version": "1", "credits": "1" },
+    "units": "synthetic-vote",
+    "authority": "local synthetic fixture",
+    "electorateScope": "explicit-address-list",
+    "candidateAddresses": [
+      "0x0000000000000000000000000000000000000011",
+      "0x0000000000000000000000000000000000000012",
+      "0x0000000000000000000000000000000000000013",
+      "0x0000000000000000000000000000000000000014",
+      "0x0000000000000000000000000000000000000015",
+      "0x0000000000000000000000000000000000000016"
+    ]
+  },
+  "records": [
+    { "address": "0x0000000000000000000000000000000000000011", "weight": "1" },
+    { "address": "0x0000000000000000000000000000000000000012", "weight": "1" },
+    { "address": "0x0000000000000000000000000000000000000013", "weight": "1" },
+    { "address": "0x0000000000000000000000000000000000000014", "weight": "1" },
+    { "address": "0x0000000000000000000000000000000000000015", "weight": "1" },
+    { "address": "0x0000000000000000000000000000000000000016", "weight": "0" }
+  ]
+}

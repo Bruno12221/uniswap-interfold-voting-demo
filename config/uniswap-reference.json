@@ -1,0 +1,16 @@
+{
+  "space": "uniswapgovernance.eth",
+  "proposalId": "0xfc6edc8b64e1fa8eef46d187557969b14ca24ac58b8b6d6b302ea27a2213849d",
+  "proposalTextHash": "0x864b5ab3cdf4f32b27a5f9f53bc6d058e5d6bd4fb84e63416a4b965a621bb07f",
+  "choices": ["Deploy $500k in UNI Incentives", "Do not deploy incentives"],
+  "sourceChainId": "1",
+  "snapshotBlock": "23265853",
+  "snapshotBlockHash": "0xf8812eeef257de7fb4e834e10a49c94a8738524cf3cce6ca54e4fd2efe119b0e",
+  "strategy": {
+    "name": "uni",
+    "version": "0.1.1",
+    "revision": "50b3c96bae6f980248fde9d7fb198e2ca9492166",
+    "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+    "decimals": 18
+  }
+}

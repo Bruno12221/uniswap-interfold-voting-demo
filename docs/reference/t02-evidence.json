@@ -1,0 +1,345 @@
+{
+  "schemaVersion": 1,
+  "task": "T02",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "fixtureType": "entirely synthetic; no real voter addresses or ballots",
+  "inferenceModel": "known contributing roster, full-weight single-choice binary ballots; both totals public",
+  "arithmetic": {
+    "plaintextModulus": 17000000,
+    "authenticatedCoefficients": 50,
+    "coefficientStorageBits": 64,
+    "maxAdmittedInputs": 100000,
+    "rawWeightBits": 96,
+    "maxRawWeight": "79228162514264337593543950335",
+    "candidateBase": 128,
+    "limbsPerChoice": 14,
+    "maxEffectiveSlotsAssumed": 100000,
+    "summedCoefficientBounds": [
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      12700000,
+      3100000
+    ],
+    "choiceCapacity": [
+      {
+        "choices": 2,
+        "coefficientsNeeded": 28,
+        "fitsOutputOnly": true
+      },
+      {
+        "choices": 3,
+        "coefficientsNeeded": 42,
+        "fitsOutputOnly": true
+      },
+      {
+        "choices": 4,
+        "coefficientsNeeded": 56,
+        "fitsOutputOnly": false
+      }
+    ],
+    "maxRawTotal": "7922816251426433759354395033500000",
+    "maxRawTotalBits": 113,
+    "base256WorstCoefficient": 25500000,
+    "oneUniRaw": "1000000000000000000",
+    "oneUniModuloT": 13000000,
+    "affirmativeThresholdRaw": "10000000000000000000000000",
+    "illustrativeSupplyRaw": "1000000000000000000000000000",
+    "illustrativeMinimumDivisorRaw": "58823529411764705883",
+    "individualRoundTrips": 1006,
+    "groupRoundTrips": 200,
+    "rejectedWeights": [
+      "-1",
+      "79228162514264337593543950336"
+    ],
+    "status": "integer model only; not a circuit, FHE test or approved private encoding"
+  },
+  "inferenceCases": [
+    {
+      "name": "equal_weight_control",
+      "syntheticWeights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "forTotal": 4,
+      "againstTotal": 4,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 70,
+      "newlyForcedChoicesByIndex": {}
+    },
+    {
+      "name": "powers_of_two",
+      "syntheticWeights": [
+        1,
+        2,
+        4,
+        8,
+        16,
+        32,
+        64,
+        128
+      ],
+      "forTotal": 37,
+      "againstTotal": 218,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 1,
+      "newlyForcedChoicesByIndex": {
+        "0": "FOR",
+        "1": "AGAINST",
+        "2": "FOR",
+        "3": "AGAINST",
+        "4": "AGAINST",
+        "5": "FOR",
+        "6": "AGAINST",
+        "7": "AGAINST"
+      }
+    },
+    {
+      "name": "distinct_weights_not_always_unique",
+      "syntheticWeights": [
+        1,
+        2,
+        3
+      ],
+      "forTotal": 3,
+      "againstTotal": 3,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 2,
+      "newlyForcedChoicesByIndex": {}
+    },
+    {
+      "name": "dominant_voter",
+      "syntheticWeights": [
+        100,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "forTotal": 105,
+      "againstTotal": 6,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 462,
+      "newlyForcedChoicesByIndex": {
+        "0": "FOR"
+      }
+    },
+    {
+      "name": "one_voter",
+      "syntheticWeights": [
+        7
+      ],
+      "forTotal": 7,
+      "againstTotal": 0,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 1,
+      "newlyForcedChoicesByIndex": {
+        "0": "FOR"
+      }
+    },
+    {
+      "name": "known_other_ballots",
+      "syntheticWeights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "forTotal": 4,
+      "againstTotal": 4,
+      "knownChoicesByIndex": {
+        "0": "FOR",
+        "1": "FOR",
+        "2": "FOR",
+        "3": "FOR",
+        "4": "AGAINST",
+        "5": "AGAINST",
+        "6": "AGAINST"
+      },
+      "compatibleAssignments": 1,
+      "newlyForcedChoicesByIndex": {
+        "7": "AGAINST"
+      }
+    },
+    {
+      "name": "unanimous",
+      "syntheticWeights": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1
+      ],
+      "forTotal": 8,
+      "againstTotal": 0,
+      "knownChoicesByIndex": {},
+      "compatibleAssignments": 1,
+      "newlyForcedChoicesByIndex": {
+        "0": "FOR",
+        "1": "FOR",
+        "2": "FOR",
+        "3": "FOR",
+        "4": "FOR",
+        "5": "FOR",
+        "6": "FOR",
+        "7": "FOR"
+      }
+    }
+  ],
+  "additionalLimbLeakage": {
+    "syntheticWeights": [
+      1,
+      127,
+      128
+    ],
+    "forTotal": 128,
+    "againstTotal": 128,
+    "scalarCompatibleAssignments": 2,
+    "examples": [
+      {
+        "choicesByIndex": [
+          1,
+          1,
+          0
+        ],
+        "forCoefficients": [
+          128,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "againstCoefficients": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficientCompatibleAssignments": 1
+      },
+      {
+        "choicesByIndex": [
+          0,
+          0,
+          1
+        ],
+        "forCoefficients": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "againstCoefficients": [
+          128,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "coefficientCompatibleAssignments": 1
+      }
+    ],
+    "finding": "public uncarried digit sums distinguish otherwise identical scalar totals"
+  },
+  "javascriptPrecision": [
+    {
+      "name": "strict_majority",
+      "leftParsed": "1000000",
+      "rightParsed": "1000000",
+      "equal": true,
+      "leftGreater": false,
+      "leftAtLeast": true,
+      "leftRaw": "1000000000000000000000001",
+      "rightRaw": "1000000000000000000000000",
+      "leftExact": "1000000.000000000000000001",
+      "rightExact": "1000000.000000000000000000",
+      "exactLeftGreater": true,
+      "exactLeftAtLeast": true
+    },
+    {
+      "name": "affirmative_threshold",
+      "leftParsed": "10000000",
+      "rightParsed": "10000000",
+      "equal": true,
+      "leftGreater": false,
+      "leftAtLeast": true,
+      "leftRaw": "9999999999999999999999999",
+      "rightRaw": "10000000000000000000000000",
+      "leftExact": "9999999.999999999999999999",
+      "rightExact": "10000000.000000000000000000",
+      "exactLeftGreater": false,
+      "exactLeftAtLeast": false
+    }
+  ],
+  "decisions": {
+    "syntheticMechanics": "proceed only when next task is authorized",
+    "realUniPrivatePilot": "no-go under this design"
+  }
+}

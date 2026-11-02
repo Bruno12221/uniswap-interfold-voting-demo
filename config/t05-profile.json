@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "profile": "synthetic-unit-v1",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "maxEligibleSlots": 20,
+  "outputCoefficients": 50,
+  "fieldModulus": "21888242871839275222246405745257275088548364400416034343698204186575808495617",
+  "presets": {
+    "insecure-512": {
+      "paramSet": 0,
+      "degree": 512,
+      "plaintextModulus": "100",
+      "paramsHash": "0x18c6d8650486b997d48aa2d285fae878fb267b268332d056a3e8527d50e87b4f",
+      "hardAdmissionLimit": "99"
+    },
+    "secure-8192": {
+      "paramSet": 2,
+      "degree": 8192,
+      "plaintextModulus": "17000000",
+      "paramsHash": "0x1b2620f6a5919d5ee19a51f34026369816f479efd0404b56585ad37d31c52317",
+      "hardAdmissionLimit": "100000"
+    }
+  }
+}

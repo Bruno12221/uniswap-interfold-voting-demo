@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-10-29",
+  "scope": "Owner-selected saved-ballot application replay, with a separate fresh browser-client exercise. Not a new voting round or live pilot.",
+  "tally": [
+    "1",
+    "2",
+    "2"
+  ],
+  "syntheticVoters": 5,
+  "eligibleSlots": 10,
+  "admittedInputs": 6,
+  "constantCredits": "1",
+  "newAggregateProofGenerated": false,
+  "originalVMResultPreserved": true,
+  "localReplayPolicy": "0x97f8b44ffc7c7a6e28a0b8d3ccaa498a217f1ace5ca26f5d494201fc57a47f02",
+  "manifestHash": "0x5ab9999bc18f7f4dc343d07f4de98a95e3c8cd5e8b8f05051ba140a3ac2bcb62",
+  "checks": {
+    "savedProofGroups": 51,
+    "sourceArtifactRuntimeMatches": 21,
+    "trustedRuntimeIdentitiesForVerificationOnly": 22,
+    "lifecycleGroups": 43,
+    "originalSignedTransactions": 172,
+    "applicationGroups": 17,
+    "fullBrowserReplayGroups": 6,
+    "browserRPCOutageGroups": 4,
+    "unitTests": 34,
+    "cleanVerificationOnlyGroups": 14,
+    "verificationOnlyTamperControls": 2
+  },
+  "freshClientProof": "Generated in browser; preserved public receipt and retried delivery successfully in an isolated open copy; never represented as part of the old aggregate.",
+  "realWalletObservation": {
+    "browser": "Chrome",
+    "wallet": "Rabby",
+    "ownerObserved": "Availability confirmed",
+    "chainReceiptIndependentlyChecked": true,
+    "commitmentTransaction": "0x1c0cf04be14867e15f36d66bce77d80d37920e49761f02eafe99708d2b8b0fd0",
+    "availabilityTransaction": "0x1febcdea3d58f7a03f515b548c850854760b0cda66caf4a09d21cc3705e46fe9",
+    "transactionValue": "0",
+    "committedInputs": 1,
+    "availableInputs": 1,
+    "newProofGenerated": false,
+    "newVotingSignatureRequested": false,
+    "aggregateDisplayed": false
+  },
+  "completeT08": true,
+  "liveReadiness": false,
+  "limits": [
+    "One operator controls all committee nodes",
+    "Local eligibility, randomness and availability fixtures",
+    "Unit credits, not exact UNI weights",
+    "Secure masks/withdrawal absent from the six-input aggregate; earlier component scope retained",
+    "Signer budget only qualifies the new local callback, not the old server or a production service",
+    "Fresh-folder verification is automated reproducibility evidence, not an independent human audit",
+    "Fresh Rabby Ballot authorization, other browser/provider configurations, production services and real UNI remain release gates"
+  ],
+  "completionScope": "Clearly labelled saved-ballot application replay plus separate fresh browser-client qualification and actual Chrome/Rabby existing-proof delivery. No fresh aggregate round or live-readiness claim."
+}

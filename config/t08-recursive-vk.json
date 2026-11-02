@@ -1,0 +1,12 @@
+{
+  "scope": "Recursive VK anchors from the checksum-pinned secure-8192/minimum release, not inferred from a returned proof",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "circuitArchiveSha256": "1a8c71783eb0f5f528e2b85c3d16fa0682a916aaf471b0d8d2367dc13bae30e7",
+  "source": "https://github.com/theinterfold/interfold/releases/download/v0.19.0/circuits-0.19.0.tar.gz",
+  "anchors": {
+    "expectedNodesFoldKeyHash": "0x1395f79a5789ab0eb02b020681dbc9a3726c04b8f1db9431db2f99cb624a1175",
+    "expectedC5KeyHash": "0x06b8b089ed341146e56c7a3feca5458eaf002fe9471a473edc8d6f704a0cb608",
+    "expectedC6FoldKeyHash": "0x04a9c1b23d71dc7fc4ca6f7547b4b63a81ee7abe8df359bc30b49d868a396bb1",
+    "expectedC7KeyHash": "0x1aa19b5c1c7fe5b1c0a24b00fc9206eb0588079656d231a2497dcf21439e798d"
+  }
+}

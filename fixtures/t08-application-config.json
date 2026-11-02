@@ -1,0 +1,310 @@
+{
+  "schemaVersion": 1,
+  "manifest": {
+    "schemaVersion": 1,
+    "profile": "synthetic-unit-v1",
+    "chainId": "31337",
+    "interfoldAddress": "0x84ea74d481ee0a5332c457a4d796187f6ba67feb",
+    "programAddress": "0x4c2f7092c2ae51d986befee378e50bd4db99c901",
+    "registryAddress": "0x80cbc328eca49bf4523f0483f4df5ac997bc2d4a",
+    "e3Id": "60119544557917436077765437426452506701107408031225824623300093246330657308672",
+    "preset": "secure-8192",
+    "paramsHash": "0x1b2620f6a5919d5ee19a51f34026369816f479efd0404b56585ad37d31c52317",
+    "committeeKeyCommitment": "0x2aea2ba0595592b8b992f8670bfa62baaed31d8b7dc167cf94603955f2f9db0c",
+    "inputStart": "1793138180",
+    "inputEnd": "1793742980",
+    "artifactsHash": "0x12fbe6befab160dc836f16bc61c997c10878dbd4315323f9fa295fdebf6129a4",
+    "censusManifestHash": "0x60f739bc8ec18d43e5b9c171ec65c1440a9bc8f75cabd32c37a1b7768c86ce2f",
+    "censusRoot": "20580959834638152065919205885441188084827021045142921989212376402438878960063",
+    "proposalId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+    "proposalTextHash": "0x78aa783fc5f9228ddb5abca5aa9dd2a82a6672a11b221e6c9909c5794dc3b06a",
+    "choices": [
+      "Synthetic option A",
+      "Synthetic option B",
+      "Synthetic option C"
+    ],
+    "maxEffectiveTotal": "10",
+    "hardAdmissionLimit": "100000",
+    "manifestHash": "0x5ab9999bc18f7f4dc343d07f4de98a95e3c8cd5e8b8f05051ba140a3ac2bcb62"
+  },
+  "approvedManifestHash": "0x5ab9999bc18f7f4dc343d07f4de98a95e3c8cd5e8b8f05051ba140a3ac2bcb62",
+  "census": {
+    "schemaVersion": 1,
+    "context": {
+      "schemaVersion": 1,
+      "purpose": "synthetic-unit",
+      "space": "local-synthetic",
+      "proposalId": "0x1111111111111111111111111111111111111111111111111111111111111111",
+      "proposalTextHash": "0x78aa783fc5f9228ddb5abca5aa9dd2a82a6672a11b221e6c9909c5794dc3b06a",
+      "choices": [
+        "Synthetic option A",
+        "Synthetic option B",
+        "Synthetic option C"
+      ],
+      "sourceChainId": "31337",
+      "snapshotBlock": "0",
+      "snapshotBlockHash": "0x721217d58588234ef7d8d1d5b382fda7e7218e9c1c93206cae70f1cfa98405a0",
+      "strategy": {
+        "name": "synthetic-unit",
+        "version": "1",
+        "credits": "1"
+      },
+      "units": "synthetic-vote",
+      "authority": "Pinned local mock census, independently reconstructed before replay admissions",
+      "electorateScope": "explicit-address-list",
+      "candidateAddresses": [
+        "0x14dc79964da2c08b23698b3d3cc7ca32193d9955",
+        "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65",
+        "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f",
+        "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+        "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+        "0x976ea74026e726554db657fa54763abd0c3a0aa9",
+        "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc",
+        "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+        "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+      ]
+    },
+    "contextHash": "0xa9bee7e559e043f6f45c77dcfdf2df68c7323f9945d3729637eb1c69d9ae81c0",
+    "records": [
+      {
+        "address": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955",
+        "weight": "1"
+      },
+      {
+        "address": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65",
+        "weight": "1"
+      },
+      {
+        "address": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f",
+        "weight": "1"
+      },
+      {
+        "address": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "weight": "1"
+      },
+      {
+        "address": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+        "weight": "1"
+      },
+      {
+        "address": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+        "weight": "1"
+      },
+      {
+        "address": "0x976ea74026e726554db657fa54763abd0c3a0aa9",
+        "weight": "1"
+      },
+      {
+        "address": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc",
+        "weight": "1"
+      },
+      {
+        "address": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+        "weight": "1"
+      },
+      {
+        "address": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "weight": "1"
+      }
+    ],
+    "eligible": [
+      {
+        "address": "0x14dc79964da2c08b23698b3d3cc7ca32193d9955",
+        "weight": "1",
+        "leaf": "11252471188763109772360743720857736089245351088180715879751267357924421043632"
+      },
+      {
+        "address": "0x15d34aaf54267db7d7c367839aaf71a00a2c6a65",
+        "weight": "1",
+        "leaf": "7741820228884645276148929674985444802839701569464447257058653467422477274868"
+      },
+      {
+        "address": "0x23618e81e3f5cdf7f54c3d65f7fbc0abf5b21e8f",
+        "weight": "1",
+        "leaf": "4189993297375128447384718377794198209671438998593651431644440452321748500674"
+      },
+      {
+        "address": "0x3c44cdddb6a900fa2b585dd299e03d12fa4293bc",
+        "weight": "1",
+        "leaf": "16222199779581185160237532348825605718608712204035968953153491205094662990375"
+      },
+      {
+        "address": "0x70997970c51812dc3a010c7d01b50e0d17dc79c8",
+        "weight": "1",
+        "leaf": "13914012016972649085727046553559400800207506341671687098157770201441029907045"
+      },
+      {
+        "address": "0x90f79bf6eb2c4f870365e785982e1f101e93b906",
+        "weight": "1",
+        "leaf": "16666518139639081986788794201050833142258772121881126944308502245573992519866"
+      },
+      {
+        "address": "0x976ea74026e726554db657fa54763abd0c3a0aa9",
+        "weight": "1",
+        "leaf": "14970141828864928993041250936544215257481329249551603987937173002180023624683"
+      },
+      {
+        "address": "0x9965507d1a55bcc2695c58ba16fb37d819b0a4dc",
+        "weight": "1",
+        "leaf": "11411862414315033868967946744158816363756005872815463750735396237420372715122"
+      },
+      {
+        "address": "0xa0ee7a142d267c1f36714e4a8f75612f20a79720",
+        "weight": "1",
+        "leaf": "17812045418323817947150250598618920630236945218411842682365014248062763405203"
+      },
+      {
+        "address": "0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266",
+        "weight": "1",
+        "leaf": "6612469309853801275214630455969680752544795879918022173148337181460117022485"
+      }
+    ],
+    "root": "20580959834638152065919205885441188084827021045142921989212376402438878960063",
+    "manifestHash": "0x60f739bc8ec18d43e5b9c171ec65c1440a9bc8f75cabd32c37a1b7768c86ce2f"
+  },
+  "approvedCensusHash": "0x60f739bc8ec18d43e5b9c171ec65c1440a9bc8f75cabd32c37a1b7768c86ce2f",
+  "policy": {
+    "schemaVersion": 1,
+    "manifestHash": "0x5ab9999bc18f7f4dc343d07f4de98a95e3c8cd5e8b8f05051ba140a3ac2bcb62",
+    "assurance": "secure-candidate",
+    "anchor": {
+      "number": "0",
+      "hash": "0x721217d58588234ef7d8d1d5b382fda7e7218e9c1c93206cae70f1cfa98405a0"
+    },
+    "confirmations": 1,
+    "scanBatchSize": 1000,
+    "contracts": {
+      "protocol": {
+        "address": "0x84ea74d481ee0a5332c457a4d796187f6ba67feb",
+        "runtimeHash": "0x9718024877eb90280b73a095894def02f04df8d265a495bde7ed866166a51541",
+        "implementation": {
+          "address": "0xc3e53f4d16ae77db1c982e75a937b9f60fe63690",
+          "runtimeHash": "0xa8739e43fdd45327b1a80b1e40eecd7cda3e7afb99725509dfd5d13815183c51"
+        }
+      },
+      "program": {
+        "address": "0x4c2f7092c2ae51d986befee378e50bd4db99c901",
+        "runtimeHash": "0xe11d1b1f0e9d94efcecafc26d370fa72ff6fa27182aecb907c611b9e8d512ca7",
+        "implementation": null
+      },
+      "committeeRegistry": {
+        "address": "0xa513e6e4b8f2a923d98304ec87f64353c4d5c853",
+        "runtimeHash": "0x2e265806919ad1383a54932b838b9ed44a861c1100f2f4ea7ebf1833ee0782c4",
+        "implementation": {
+          "address": "0x0165878a594ca255338adfa4d48449f69242eb8f",
+          "runtimeHash": "0x47b9417954354a47953d308e479a42afdd6530709a38f53d173fb519e45ebb7c"
+        }
+      },
+      "pkVerifier": {
+        "address": "0x36b58f5c1969b7b6591d752ea6f5486d069010ab",
+        "runtimeHash": "0x49276b97e45e6eba3401eebb52b1084e2f35b8df522215f5e18c974b605320c3",
+        "implementation": null
+      },
+      "decryptionVerifier": {
+        "address": "0xdc11f7e700a4c898ae5caddb1082cffa76512add",
+        "runtimeHash": "0x5f924c8a16fe08c1fbad5f3ac20c0ee2c18a5278143962d65b6a9924a633eb27",
+        "implementation": null
+      },
+      "receiptVerifier": {
+        "address": "0x4ee6ecad1c2dae9f525404de8555724e3c35d07b",
+        "runtimeHash": "0x1ed4270f207ac26516a2780ba13fb4393f58b3712f79649414a1d2d5a466fcbc",
+        "implementation": null
+      },
+      "halo2Verifier": {
+        "address": "0x172076e0166d1f9cc711c77adf8488051744980c",
+        "runtimeHash": "0xc164e9a2f1317f2babaccd3b14efe13a172225dbee3ffff0f95d5afda7b6b99c",
+        "implementation": null
+      },
+      "dataAvailabilityVerifier": {
+        "address": "0x367761085bf3c12e5da2df99ac6e1a824612b8fb",
+        "runtimeHash": "0xa2318cda7850bf7b7b235b57fbe7fdfea9cc6e5cc245cad77164ffcf992ec265",
+        "implementation": null
+      },
+      "ballotVerifier": {
+        "address": "0xfbc22278a96299d91d41c453234d97b4f5eb9b2d",
+        "runtimeHash": "0xd64482d0e5f4399367b6e84035a5d2ba208385cd32b67f8b07e445fa2546d2a6",
+        "implementation": null
+      },
+      "onchainBallotVerifier": {
+        "address": "0x1c85638e118b37167e9298c2268758e058ddfda0",
+        "runtimeHash": "0xb2f2f48c928730fbf2a3e2a5c0e275b03ca03947f571fdd80107ebcdb31facab",
+        "implementation": null
+      },
+      "ciphertextVerifier": {
+        "address": "0xbec49fa140acaa83533fb00a2bb19bddd0290f25",
+        "runtimeHash": "0x8a087b531166a69e60972e8c6e302cefa5a5f6d82d02a6c50ca16a5b51cdc9ef",
+        "implementation": null
+      },
+      "committeeCircuitVerifier": {
+        "address": "0xd8a5a9b31c3c0232e196d518e89fd8bf83acad43",
+        "runtimeHash": "0xda4c2b842fd8c24d2c6282b39d9754b4c22d34f8a177c40bfce7b502ce09656a",
+        "implementation": null
+      },
+      "decryptionCircuitVerifier": {
+        "address": "0x2e2ed0cfd3ad2f1d34481277b3204d807ca2f8c2",
+        "runtimeHash": "0xc374dbaa8cec79c1c6088cdaae91765a125493602df967dc26765ac7e3d7f389",
+        "implementation": null
+      },
+      "foldAttestationVerifier": {
+        "address": "0x0355b7b8cb128fa5692729ab3aaa199c1753f726",
+        "runtimeHash": "0xf7e2859ffc27aa8b92ba640e1929da7fe3f7eb5bf011a9a88e69c82529b9a394",
+        "implementation": null
+      },
+      "contextRegistry": {
+        "address": "0x80cbc328eca49bf4523f0483f4df5ac997bc2d4a",
+        "runtimeHash": "0xe8f47d129f00aee6fc7aa61bc5d094fc3f1ac0ed73df9f4fdca3ea945df3ed47",
+        "implementation": null
+      }
+    },
+    "guest": {
+      "imageId": "0x044146e78defc6ba69824924ff80b44fd94309c704484446992da90987d05122",
+      "appExeCommit": "0x005e6e29fb03b36a77337f0eb1fcd67db48f81cc4d8939dc44d578e4e43d2d26",
+      "appVmCommit": "0x009034802c4d22df352e22772fc613453a77e387b95479ef296bbef78edc588a"
+    },
+    "edges": [
+      {
+        "from": "program",
+        "getter": "interfold",
+        "to": "protocol"
+      },
+      {
+        "from": "program",
+        "getter": "openVmVerifier",
+        "to": "receiptVerifier"
+      },
+      {
+        "from": "program",
+        "getter": "dataAvailabilityVerifier",
+        "to": "dataAvailabilityVerifier"
+      },
+      {
+        "from": "receiptVerifier",
+        "getter": "verifier",
+        "to": "halo2Verifier"
+      },
+      {
+        "from": "decryptionVerifier",
+        "getter": "ciphernodeRegistry",
+        "to": "committeeRegistry"
+      },
+      {
+        "from": "pkVerifier",
+        "getter": "circuitVerifier",
+        "to": "committeeCircuitVerifier"
+      },
+      {
+        "from": "decryptionVerifier",
+        "getter": "circuitVerifier",
+        "to": "decryptionCircuitVerifier"
+      },
+      {
+        "from": "ciphertextVerifier",
+        "getter": "openVmVerifier",
+        "to": "receiptVerifier"
+      }
+    ],
+    "policyHash": "0x97f8b44ffc7c7a6e28a0b8d3ccaa498a217f1ace5ca26f5d494201fc57a47f02"
+  },
+  "approvedPolicyHash": "0x97f8b44ffc7c7a6e28a0b8d3ccaa498a217f1ace5ca26f5d494201fc57a47f02"
+}

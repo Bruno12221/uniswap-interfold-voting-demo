@@ -1,0 +1,126 @@
+{
+  "schemaVersion": 1,
+  "observedDate": "2026-10-20",
+  "scope": "Read-only public score references and disposable synthetic census. These addresses are not participants or an invited electorate.",
+  "historical": {
+    "source": {
+      "space": "uniswapgovernance.eth",
+      "proposalId": "0xfc6edc8b64e1fa8eef46d187557969b14ca24ac58b8b6d6b302ea27a2213849d",
+      "proposalTextHash": "0x864b5ab3cdf4f32b27a5f9f53bc6d058e5d6bd4fb84e63416a4b965a621bb07f",
+      "choices": [
+        "Deploy $500k in UNI Incentives",
+        "Do not deploy incentives"
+      ],
+      "sourceChainId": "1",
+      "snapshotBlock": "23265853",
+      "snapshotBlockHash": "0xf8812eeef257de7fb4e834e10a49c94a8738524cf3cce6ca54e4fd2efe119b0e",
+      "strategy": {
+        "name": "uni",
+        "version": "0.1.1",
+        "revision": "50b3c96bae6f980248fde9d7fb198e2ca9492166",
+        "token": "0x1f9840a85d5af5bf1d1762f925bdaddc4201f984",
+        "decimals": 18
+      }
+    },
+    "checkpointReadBlock": "26233689",
+    "checkpointReadBlockHash": "0x613efc7b59e9617eb0cb7f1b34f47c4d027f5e09b8421bcaa1b95a5b1bc65d53",
+    "records": [
+      {
+        "address": "0x000000000000000000000000000000000000beef",
+        "weight": "0",
+        "balance": "0",
+        "delegate": "0x0000000000000000000000000000000000000000",
+        "accountType": "eoa",
+        "snapshotDisplayScore": "0"
+      },
+      {
+        "address": "0x1a9c8182c09f50c8318d769245bea52c32be35bc",
+        "weight": "0",
+        "balance": "371260163290000000009999999",
+        "delegate": "0x0000000000000000000000000000000000000000",
+        "accountType": "contract",
+        "snapshotDisplayScore": "0"
+      },
+      {
+        "address": "0x765a1457b0aa197778a49245381ebff1bbaa0eac",
+        "weight": "0",
+        "balance": "1082060780000000000",
+        "delegate": "0x0000000000000000000000000000000000000000",
+        "accountType": "eoa",
+        "snapshotDisplayScore": "0"
+      },
+      {
+        "address": "0xa6e8772af29b29b9202a073f8e36f447689beef6",
+        "weight": "50844361091245691549815",
+        "balance": "214500000000000000000",
+        "delegate": "0xa6e8772af29b29b9202a073f8e36f447689beef6",
+        "accountType": "contract",
+        "snapshotDisplayScore": "50844.36109124569"
+      },
+      {
+        "address": "0xc87031d05c8ceb9ba4da01906e9129bfcd28199e",
+        "weight": "0",
+        "balance": "202272440320000000",
+        "delegate": "0xa6e8772af29b29b9202a073f8e36f447689beef6",
+        "accountType": "eoa",
+        "snapshotDisplayScore": "0"
+      }
+    ],
+    "snapshotReference": [
+      {
+        "address": "0x000000000000000000000000000000000000beef",
+        "displayScore": "0"
+      },
+      {
+        "address": "0x1a9c8182c09f50c8318d769245bea52c32be35bc",
+        "displayScore": "0"
+      },
+      {
+        "address": "0x765a1457b0aa197778a49245381ebff1bbaa0eac",
+        "displayScore": "0"
+      },
+      {
+        "address": "0xa6e8772af29b29b9202a073f8e36f447689beef6",
+        "displayScore": "50844.36109124569"
+      },
+      {
+        "address": "0xc87031d05c8ceb9ba4da01906e9129bfcd28199e",
+        "displayScore": "0"
+      }
+    ]
+  },
+  "synthetic": {
+    "root": "17247068416615718775413978655592291034339865846901878808239372820661880537787",
+    "manifestHash": "0x5b8c25e7ee52da60f4f7a50ccfdf505fbc39409eb8e6637432d3ebc361672044",
+    "eligible": 5,
+    "candidates": 6,
+    "independentCliRebuildsAgree": true,
+    "independentPairwiseTreeAgrees": true,
+    "pinnedSdkRootAndMembershipAgree": true
+  },
+  "historicalSubsetRoot": "14810950612842264046705907938685570802047495659579695589572527596728826961582",
+  "testsPassed": 9,
+  "sourceRpc": "https://rpc.snapshot.org/1",
+  "scoreApi": "https://score.snapshot.org",
+  "limits": [
+    "This does not enumerate the full UNI electorate.",
+    "Exact raw units are not recovered from API floating-point scores.",
+    "Census source completeness and publication remain an explicit authority trust assumption.",
+    "Contract signature checks do not add ERC-1271 support to the CRISP ballot circuit.",
+    "No real-UNI ballot or historical participant ballot was collected."
+  ],
+  "proposalBodyReference": {
+    "endpoint": "https://hub.snapshot.org/graphql",
+    "query": "query { proposal(id: \"0xfc6edc8b64e1fa8eef46d187557969b14ca24ac58b8b6d6b302ea27a2213849d\") { id title body type snapshot network choices strategies { name network params } ipfs } }",
+    "utf8Bytes": 5745,
+    "sha256": "864b5ab3cdf4f32b27a5f9f53bc6d058e5d6bd4fb84e63416a4b965a621bb07f",
+    "ipfs": "bafkreigoyib5dfjramb2jfpb3zgt7txtjkvm6hdn2kv5aosjgz45cjmt2q"
+  },
+  "referenceCaseNotes": {
+    "0x765a1457b0aa197778a49245381ebff1bbaa0eac": "Holder with no delegation and no voting power.",
+    "0xa6e8772af29b29b9202a073f8e36f447689beef6": "Contract delegate; delegated voting power exceeds its own token balance.",
+    "0xc87031d05c8ceb9ba4da01906e9129bfcd28199e": "Holder delegated to the reference delegate; no power at its own address.",
+    "0x1a9c8182c09f50c8318d769245bea52c32be35bc": "Contract address with token balance and no delegated power.",
+    "0x000000000000000000000000000000000000beef": "No token balance and no delegated voting power."
+  }
+}

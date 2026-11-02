@@ -1,0 +1,9 @@
+{
+  "node": {"url":"https://nodejs.org/dist/v22.23.3/node-v22.23.3-linux-x64.tar.gz","sha256":"1084aa36196bba4c3a5e69a1ee388a6e4ff729dad09445fbcd434b28fe3c24af","archive":true,"bins":{"node":"node-v22.23.3-linux-x64/bin/node"}},
+  "pnpm": {"url":"https://registry.npmjs.org/pnpm/-/pnpm-10.7.1.tgz","sha256":"dc514890ea719003cb7a57d6b21af24fdafadd9f171e7567eca1665d7cfcef76","archive":true,"bins":{"pnpm":"package/bin/pnpm.cjs"}},
+  "nargo": {"url":"https://github.com/noir-lang/noir/releases/download/v1.0.0-beta.26/nargo-x86_64-unknown-linux-gnu.tar.gz","sha256":"64048040befd55a987158b11137d8f38f9688f696db4d84910dd1bcf0442fb80","archive":true,"bins":{"nargo":"nargo"}},
+  "bb": {"url":"https://github.com/AztecProtocol/aztec-packages/releases/download/v5.2.0/barretenberg-amd64-linux.tar.gz","sha256":"17ab8476961728cdc5c69b6c4ff427c9092cef11d1e0b0166929a0417dfa7cfb","archive":true,"bins":{"bb":"bb"}},
+  "foundry": {"url":"https://github.com/foundry-rs/foundry/releases/download/v1.5.1/foundry_v1.5.1_linux_amd64.tar.gz","sha256":"73640b01bd9ed29fdb4965085099371f8cf0dbbec3e2086cf54564efc4dcfe88","archive":true,"bins":{"anvil":"anvil","cast":"cast","forge":"forge"}},
+  "yq": {"url":"https://github.com/mikefarah/yq/releases/download/v4.49.1/yq_linux_amd64","sha256":"897045e4a42933951ea8e143c44ea3f7f8005aa25105c4fbd796c3d61ee163ec","archive":false,"bins":{"yq":"binary"}},
+  "solc": {"url":"https://raw.githubusercontent.com/ethereum/solc-bin/gh-pages/linux-amd64/solc-linux-amd64-v0.8.28+commit.7893614a","sha256":"9a0fb7e0db2c0641dbae1c5cc645dc686820c83af516226abb1c0a2f76636f25","archive":false,"bins":{"solc":"binary"}}
+}

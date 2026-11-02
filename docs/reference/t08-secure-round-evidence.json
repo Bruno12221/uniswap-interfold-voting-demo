@@ -1,0 +1,214 @@
+{
+  "schemaVersion": 1,
+  "scope": "Independently verified local synthetic cryptographic round; full project coordinator/browser qualification remains open",
+  "reviewedAt": "2026-10-29",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "chainId": 31337,
+  "e3Id": "60119544557917436077765437426452506701107408031225824623300093246330657308672",
+  "preset": "secure-8192",
+  "syntheticVoters": 5,
+  "admittedInputs": 6,
+  "replacements": 1,
+  "creditPerVoter": "1",
+  "tally": [
+    "1",
+    "2",
+    "2"
+  ],
+  "publishedCoefficients": 50,
+  "unusedCoefficients": 47,
+  "unusedCoefficientsZero": true,
+  "committee": {
+    "nodes": 3,
+    "t": 1,
+    "h": 2,
+    "decryptionSharesVerified": 2,
+    "ownership": "One operator controls all local nodes"
+  },
+  "transportFixtures": [
+    "eligibility token",
+    "availability receipts",
+    "randomness provider"
+  ],
+  "publicExport": {
+    "archiveSha256": "a6bacf55513a87cdd1a9bc5fbee3aca225e39dbd7d0649adf778d190fb7e5534",
+    "archiveBytes": 25170897,
+    "filesChecked": 8,
+    "chainSha256": "377a4d40febf4c17b8a35a0f65da7947c57450614460527ff10458979d65bbbe"
+  },
+  "computation": {
+    "sealSha256": "5d3b6fee8d8b6c45ba64cb64c0f8a54c62cd04ee940febba3b182a8eff67602d",
+    "journalSha256": "d8ec285b97f1395941f67b9d6ef95b64da15ef0b0d0df9642a4f5b0b7eab83f3",
+    "appCommit": {
+      "app_exe_commit": "0x005e6e29fb03b36a77337f0eb1fcd67db48f81cc4d8939dc44d578e4e43d2d26",
+      "app_vm_commit": "0x009034802c4d22df352e22772fc613453a77e387b95479ef296bbef78edc588a"
+    },
+    "phaseSeconds": {
+      "prove-app": 68082.5,
+      "aggregate-stark": 24498.72,
+      "prove-root": 167.94,
+      "compress-root": 911.97
+    },
+    "newProofGeneratedDuringReview": false
+  },
+  "verification": {
+    "proofContextGroups": 50,
+    "runtimeMatches": 21,
+    "lifecycleGroups": 25,
+    "signedTransactionsReplayed": 172,
+    "proofChecks": [
+      "saved-chain-complete-exact-tally-and-zero-pending-inputs",
+      "committee-real-honk-proof-verified",
+      "committee-changed-proof-rejected",
+      "committee-changed-public-input-rejected",
+      "decryption-real-honk-proof-verified",
+      "decryption-changed-proof-rejected",
+      "decryption-changed-public-input-rejected",
+      "decryption-public-inputs-match-exact-aggregate-only-plaintext",
+      "all-six-finalized-inputs-rebuild-proof-bound-transcript-root",
+      "missing-and-reordered-transcripts-change-bound-root",
+      "secure-client-proof-1-matches-recorded-census-slot-parent-key-and-commitment",
+      "client-wrong-chain-rejected",
+      "client-wrong-program-rejected",
+      "client-wrong-round-rejected",
+      "client-changed-census-rejected",
+      "client-changed-options-rejected",
+      "client-changed-key-rejected",
+      "secure-client-proof-2-matches-recorded-census-slot-parent-key-and-commitment",
+      "secure-client-proof-3-matches-recorded-census-slot-parent-key-and-commitment",
+      "secure-client-proof-4-matches-recorded-census-slot-parent-key-and-commitment",
+      "secure-client-proof-5-matches-recorded-census-slot-parent-key-and-commitment",
+      "secure-client-proof-6-matches-recorded-census-slot-parent-key-and-commitment",
+      "committee-recursive-vk-anchors-match-checksum-pinned-secure-release",
+      "committee-wrapper-verifies-current-registry-key-and-hash",
+      "committee-changed-key-rejected",
+      "signed-dkg-attestations-match-canonical-nodes-and-recorded-anchors",
+      "dkg-wrong-chain-rejected",
+      "dkg-wrong-round-rejected",
+      "decryption-recursive-vk-anchors-match-checksum-pinned-secure-release",
+      "decryption-wrapper-binds-domain-plaintext-ciphertext-and-dkg-anchors",
+      "decryption-wrong-round-rejected",
+      "decryption-wrong-domain-rejected",
+      "decryption-wrong-plaintext-rejected",
+      "decryption-wrong-committee-rejected",
+      "decryption-wrong-ciphertext-rejected",
+      "program-verifies-existing-seal-against-frozen-parameters-and-entire-input-tree",
+      "program-missing-transcript-rejected",
+      "program-reordered-transcript-rejected",
+      "compute-wrapper-receipt-identities-and-generated-halo2-runtime-match-pinned-artifacts",
+      "compute-wrapper-accepts-original-interfold-caller",
+      "compute-wrong-caller-rejected-preflight-regression",
+      "compute-wrong-round-rejected",
+      "compute-wrong-scheme-rejected",
+      "compute-wrong-params-rejected",
+      "compute-wrong-key-rejected",
+      "compute-wrong-output-rejected",
+      "compute-wrong-commitment-rejected",
+      "receipt-wrong-application-identity-rejected",
+      "completed-round-rejects-duplicate-plaintext-publication",
+      "completed-round-rejects-new-input-commitment"
+    ],
+    "lifecycleChecks": [
+      "actual-program-valid-secure-client-proof-before-admission",
+      "actual-admission-changed-proof-rejected",
+      "actual-admission-changed-slot-rejected",
+      "actual-admission-changed-commitment-rejected",
+      "actual-admission-changed-hash-rejected",
+      "actual-admission-wrong-round-rejected",
+      "actual-admission-one-second-before-cutoff-valid",
+      "actual-admission-at-exclusive-cutoff-rejected",
+      "actual-admission-after-cutoff-rejected",
+      "actual-admission-duplicate-input-rejected",
+      "actual-finalization-duplicate-receipt-0-rejected",
+      "actual-finalization-duplicate-receipt-1-rejected",
+      "actual-finalization-duplicate-receipt-2-rejected",
+      "actual-finalization-duplicate-receipt-3-rejected",
+      "actual-finalization-duplicate-receipt-4-rejected",
+      "actual-program-pending-availability-blocks-computation",
+      "actual-finalization-duplicate-receipt-5-rejected",
+      "actual-lifecycle-valid-computation-publication-preflight",
+      "actual-lifecycle-changed-output-reference-rejected",
+      "actual-failed-round-rejects-original-valid-computation",
+      "actual-failed-round-rejects-original-valid-decryption",
+      "actual-compute-timeout-marks-failed-and-cannot-complete",
+      "actual-lifecycle-changed-decryption-proof-rejected",
+      "invalid-decryption-does-not-transition-to-complete",
+      "original-signed-transactions-replay-through-real-secure-verifiers-to-exact-tally"
+    ],
+    "replayLimits": "Original signed transaction bytes, deployment addresses, admission proofs and result are retained. Native balances are prefunded. Empty-block timestamps, block hashes, PREVRANDAO and the unused E3 computation seed differ; this is not chain-root reproduction.",
+    "compressedGaps": [
+      {
+        "beforeOriginalBlock": 102788,
+        "emptyBlocksOmitted": 99840
+      }
+    ],
+    "pendingAvailabilityControl": "After commitment six: exact proof-bound transcript; requires InputAvailabilityPending; same proof passes after finalization six"
+  },
+  "recursiveVkAnchors": {
+    "expectedNodesFoldKeyHash": "0x1395f79a5789ab0eb02b020681dbc9a3726c04b8f1db9431db2f99cb624a1175",
+    "expectedC5KeyHash": "0x06b8b089ed341146e56c7a3feca5458eaf002fe9471a473edc8d6f704a0cb608",
+    "expectedC6FoldKeyHash": "0x04a9c1b23d71dc7fc4ca6f7547b4b63a81ee7abe8df359bc30b49d868a396bb1",
+    "expectedC7KeyHash": "0x1aa19b5c1c7fe5b1c0a24b00fc9206eb0588079656d231a2497dcf21439e798d"
+  },
+  "originalGas": {
+    "allTransactions": 268057067,
+    "deployments": {
+      "count": 51,
+      "gas": 100361325
+    },
+    "roundOperations": {
+      "request": {
+        "count": 1,
+        "gas": 2653275
+      },
+      "publishCommittee": {
+        "count": 1,
+        "gas": 3663725
+      },
+      "publishInput": {
+        "count": 6,
+        "gas": 19825854
+      },
+      "finalizeInput": {
+        "count": 6,
+        "gas": 88344810
+      },
+      "publishCiphertextOutput": {
+        "count": 1,
+        "gas": 14793210
+      },
+      "publishPlaintextOutput": {
+        "count": 1,
+        "gas": 3941720
+      }
+    },
+    "scope": "Local receipt gas including setup/fixture calldata; not a network fee estimate"
+  },
+  "portableBundle": {
+    "file": "T08-Verified-Round-20261029.tar.gz",
+    "bytes": 5207185,
+    "sha256": "3c15c4069a9d32e0085e415d76ecd47aab02bea27bb3c2d5d6590a1ba93e0454",
+    "files": 17,
+    "compactPublicAccounts": 74,
+    "scope": "Proof verification only; lifecycle replay uses the original full export"
+  },
+  "preflightFix": "Set the protocol ciphertext-verifier eth_call sender to the bound Interfold address; no circuit or guest changes",
+  "remaining": [
+    "Full T06/T07 secure coordinator/browser integration",
+    "Actual-service restart/outage and full-path privacy controls",
+    "Unequal weights remain conditional on a separate single-choice design"
+  ],
+  "completeT08": false,
+  "securePolicyApproved": false,
+  "realUniReady": false,
+  "liveDeployment": false,
+  "reviewedLimitations": [
+    "Secure browser preset/result path is disabled and needs implementation",
+    "Original SDK/server secure round did not freeze the project manifest or use the T06 coordinator",
+    "The planned 60-admission budget is not enforced against direct submissions",
+    "Private immutable dependency bindings and clean-machine verification remain unqualified",
+    "Secure masks/zero withdrawal and the complete deadline matrix remain open",
+    "Local fixtures and a single operator do not establish production privacy/service availability"
+  ],
+  "livePilotDeferred": true
+}

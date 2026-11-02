@@ -1,0 +1,690 @@
+{
+  "schemaVersion": 1,
+  "scope": "Exact verified synthetic cryptographic round only; independently reviewed code hashes are trusted inputs. No new proof generation or upstream SDK required.",
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "chainId": 31337,
+  "e3Id": "60119544557917436077765437426452506701107408031225824623300093246330657308672",
+  "runtimes": {
+    "0xe6e340d132b5f46d1e472debcd681b2abc16e57e": "0x22c12bbae289adf23b157dc17234990612b57966f6f4d276d162b1af9a819e77",
+    "0x67d269191c92caf3cd7723f116c85e6e9bf55933": "0x790e18374cc538f880c52d6da26bf9d3e5ce905b1a3fbdecc0e973edd8a1f2c8",
+    "0xc3e53f4d16ae77db1c982e75a937b9f60fe63690": "0xa8739e43fdd45327b1a80b1e40eecd7cda3e7afb99725509dfd5d13815183c51",
+    "0x3333333c0a88f9be4fd23ed0536f9b6c427e3b93": "0x4495c92f7f5db02c3922c3e56cbe427af9cb349a77fd3faf41165afb3137d022",
+    "0x5fc8d32690cc91d4c39d9d3abcbd16989f875707": "0x86542415536326dbc0218159932b978af306f5e67554c091ecaf56514f1cea77",
+    "0x0165878a594ca255338adfa4d48449f69242eb8f": "0x47b9417954354a47953d308e479a42afdd6530709a38f53d173fb519e45ebb7c",
+    "0x4c2f7092c2ae51d986befee378e50bd4db99c901": "0xe11d1b1f0e9d94efcecafc26d370fa72ff6fa27182aecb907c611b9e8d512ca7",
+    "0x36b58f5c1969b7b6591d752ea6f5486d069010ab": "0x49276b97e45e6eba3401eebb52b1084e2f35b8df522215f5e18c974b605320c3",
+    "0xdc11f7e700a4c898ae5caddb1082cffa76512add": "0x5f924c8a16fe08c1fbad5f3ac20c0ee2c18a5278143962d65b6a9924a633eb27",
+    "0x21df544947ba3e8b3c32561399e88b52dc8b2823": "0x4bab2f7d578aef979a13b85b6303d5d1f601b616d02a6c24f39d06098c4d3403",
+    "0x4c4a2f8c81640e47606d3fd77b353e87ba015584": "0x379c252aaf73455a2ee071bb44c57d73167d896729e027f02869ff886db5c2a5",
+    "0xd8a5a9b31c3c0232e196d518e89fd8bf83acad43": "0xda4c2b842fd8c24d2c6282b39d9754b4c22d34f8a177c40bfce7b502ce09656a",
+    "0x2e2ed0cfd3ad2f1d34481277b3204d807ca2f8c2": "0xc374dbaa8cec79c1c6088cdaae91765a125493602df967dc26765ac7e3d7f389",
+    "0x2b0d36facd61b71cc05ab8f3d2355ec3631c0dd5": "0x8d129a092f5436fdd123b0a6d94cd4d6dbe536c555a763e087cd9763bbbab373",
+    "0xd84379ceae14aa33c123af12424a37803f885889": "0x3d5b2bbc0f2f69503713812504c76a756d0224d6f6658e6887457009347ea00e",
+    "0xfbc22278a96299d91d41c453234d97b4f5eb9b2d": "0xd64482d0e5f4399367b6e84035a5d2ba208385cd32b67f8b07e445fa2546d2a6",
+    "0x0355b7b8cb128fa5692729ab3aaa199c1753f726": "0xf7e2859ffc27aa8b92ba640e1929da7fe3f7eb5bf011a9a88e69c82529b9a394",
+    "0xbec49fa140acaa83533fb00a2bb19bddd0290f25": "0x8a087b531166a69e60972e8c6e302cefa5a5f6d82d02a6c50ca16a5b51cdc9ef",
+    "0x4ee6ecad1c2dae9f525404de8555724e3c35d07b": "0x1ed4270f207ac26516a2780ba13fb4393f58b3712f79649414a1d2d5a466fcbc",
+    "0x84ea74d481ee0a5332c457a4d796187f6ba67feb": "0x9718024877eb90280b73a095894def02f04df8d265a495bde7ed866166a51541",
+    "0xa513e6e4b8f2a923d98304ec87f64353c4d5c853": "0x2e265806919ad1383a54932b838b9ed44a861c1100f2f4ea7ebf1833ee0782c4",
+    "0x172076e0166d1f9cc711c77adf8488051744980c": "0xc164e9a2f1317f2babaccd3b14efe13a172225dbee3ffff0f95d5afda7b6b99c"
+  },
+  "roles": {
+    "Interfold": "0x84ea74d481ee0a5332c457a4d796187f6ba67feb",
+    "CRISPProgram": "0x4c2f7092c2ae51d986befee378e50bd4db99c901",
+    "CiphernodeRegistryOwnable": "0xa513e6e4b8f2a923d98304ec87f64353c4d5c853",
+    "HonkVerifier": "0xfbc22278a96299d91d41c453234d97b4f5eb9b2d",
+    "BfvPkVerifier": "0x36b58f5c1969b7b6591d752ea6f5486d069010ab",
+    "BfvDecryptionVerifier": "0xdc11f7e700a4c898ae5caddb1082cffa76512add",
+    "DkgAggregatorVerifier": "0xd8a5a9b31c3c0232e196d518e89fd8bf83acad43",
+    "DecryptionAggregatorVerifier": "0x2e2ed0cfd3ad2f1d34481277b3204d807ca2f8c2",
+    "DkgFoldAttestationVerifier": "0x0355b7b8cb128fa5692729ab3aaa199c1753f726",
+    "OpenVmReceiptVerifier": "0x4ee6ecad1c2dae9f525404de8555724e3c35d07b",
+    "OpenVmHalo2Verifier": "0x172076e0166d1f9cc711c77adf8488051744980c",
+    "OpenVmBfvCiphertextVerifier": "0xbec49fa140acaa83533fb00a2bb19bddd0290f25"
+  },
+  "abis": {
+    "protocol": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getE3",
+        "outputs": [
+          {
+            "components": [
+              {
+                "internalType": "uint256",
+                "name": "seed",
+                "type": "uint256"
+              },
+              {
+                "internalType": "enum IInterfold.CommitteeSize",
+                "name": "committeeSize",
+                "type": "uint8"
+              },
+              {
+                "internalType": "uint256",
+                "name": "requestBlock",
+                "type": "uint256"
+              },
+              {
+                "internalType": "uint256[2]",
+                "name": "inputWindow",
+                "type": "uint256[2]"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "encryptionSchemeId",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "contract IE3Program",
+                "name": "e3Program",
+                "type": "address"
+              },
+              {
+                "internalType": "uint8",
+                "name": "paramSet",
+                "type": "uint8"
+              },
+              {
+                "internalType": "bytes",
+                "name": "customParams",
+                "type": "bytes"
+              },
+              {
+                "internalType": "contract IDecryptionVerifier",
+                "name": "decryptionVerifier",
+                "type": "address"
+              },
+              {
+                "internalType": "contract IPkVerifier",
+                "name": "pkVerifier",
+                "type": "address"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "committeePublicKey",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "ciphertextOutput",
+                "type": "bytes32"
+              },
+              {
+                "internalType": "bytes",
+                "name": "plaintextOutput",
+                "type": "bytes"
+              },
+              {
+                "internalType": "address",
+                "name": "requester",
+                "type": "address"
+              },
+              {
+                "internalType": "bytes32",
+                "name": "ciphertextCommitment",
+                "type": "bytes32"
+              }
+            ],
+            "internalType": "struct E3",
+            "name": "e3",
+            "type": "tuple"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getE3Stage",
+        "outputs": [
+          {
+            "internalType": "enum IInterfold.E3Stage",
+            "name": "stage",
+            "type": "uint8"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "encodedOutputReference",
+            "type": "bytes"
+          }
+        ],
+        "name": "publishCiphertextOutput",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "plaintextOutput",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          }
+        ],
+        "name": "publishPlaintextOutput",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "success",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      }
+    ],
+    "program": [
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "indexed": true,
+            "internalType": "bytes32",
+            "name": "inputId",
+            "type": "bytes32"
+          },
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "slotAddress",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "encryptedVoteCommitment",
+            "type": "bytes32"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "encryptedVoteHash",
+            "type": "bytes32"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint40",
+            "name": "parentIndexPlusOne",
+            "type": "uint40"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint40",
+            "name": "index",
+            "type": "uint40"
+          }
+        ],
+        "name": "InputCommitted",
+        "type": "event"
+      },
+      {
+        "anonymous": false,
+        "inputs": [
+          {
+            "indexed": true,
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "indexed": true,
+            "internalType": "address",
+            "name": "slotAddress",
+            "type": "address"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "encryptedVoteCommitment",
+            "type": "bytes32"
+          },
+          {
+            "indexed": false,
+            "internalType": "bytes32",
+            "name": "encryptedVoteHash",
+            "type": "bytes32"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint32",
+            "name": "availabilityBlock",
+            "type": "uint32"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint128",
+            "name": "availabilityLeafIndex",
+            "type": "uint128"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint256",
+            "name": "index",
+            "type": "uint256"
+          },
+          {
+            "indexed": false,
+            "internalType": "uint40",
+            "name": "parentIndexPlusOne",
+            "type": "uint40"
+          }
+        ],
+        "name": "InputPublished",
+        "type": "event"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "slot",
+            "type": "address"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "ciphertextCommitment",
+            "type": "bytes32"
+          }
+        ],
+        "name": "ballotDigest",
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getRoundData",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "merkleRoot",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "paramsHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "uint256",
+            "name": "numOptions",
+            "type": "uint256"
+          },
+          {
+            "internalType": "enum CRISPProgram.CreditMode",
+            "name": "creditMode",
+            "type": "uint8"
+          },
+          {
+            "internalType": "uint256",
+            "name": "inputRoot",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint40",
+            "name": "numberOfVotes",
+            "type": "uint40"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "address",
+            "name": "slotAddress",
+            "type": "address"
+          },
+          {
+            "internalType": "uint40",
+            "name": "index",
+            "type": "uint40"
+          }
+        ],
+        "name": "inputCommitmentOf",
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "pendingInputCount",
+        "outputs": [
+          {
+            "internalType": "uint40",
+            "name": "",
+            "type": "uint40"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "data",
+            "type": "bytes"
+          }
+        ],
+        "name": "publishInput",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "ciphertextOutputHash",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "ciphertextCommitment",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          }
+        ],
+        "name": "verify",
+        "outputs": [
+          {
+            "internalType": "bool",
+            "name": "",
+            "type": "bool"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "committee": [
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getCommitteeHash",
+        "outputs": [
+          {
+            "internalType": "bytes32",
+            "name": "committeeHash",
+            "type": "bytes32"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getCommitteeNodes",
+        "outputs": [
+          {
+            "internalType": "address[]",
+            "name": "nodes",
+            "type": "address[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "getDkgAnchors",
+        "outputs": [
+          {
+            "internalType": "uint256[]",
+            "name": "partyIds",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "skAggCommits",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "esmAggCommits",
+            "type": "bytes32[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes32",
+            "name": "pkCommitment",
+            "type": "bytes32"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "dkgAttestationBundle",
+            "type": "bytes"
+          }
+        ],
+        "name": "publishCommittee",
+        "outputs": [],
+        "stateMutability": "nonpayable",
+        "type": "function"
+      },
+      {
+        "inputs": [
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          }
+        ],
+        "name": "rootAt",
+        "outputs": [
+          {
+            "internalType": "uint256",
+            "name": "",
+            "type": "uint256"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ],
+    "attestation": [
+      {
+        "inputs": [
+          {
+            "internalType": "address",
+            "name": "registry",
+            "type": "address"
+          },
+          {
+            "internalType": "uint256",
+            "name": "chainId",
+            "type": "uint256"
+          },
+          {
+            "internalType": "uint256",
+            "name": "e3Id",
+            "type": "uint256"
+          },
+          {
+            "internalType": "bytes",
+            "name": "proof",
+            "type": "bytes"
+          },
+          {
+            "internalType": "bytes",
+            "name": "dkgAttestationBundle",
+            "type": "bytes"
+          }
+        ],
+        "name": "verify",
+        "outputs": [
+          {
+            "internalType": "uint256[]",
+            "name": "partyIds",
+            "type": "uint256[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "skAggCommits",
+            "type": "bytes32[]"
+          },
+          {
+            "internalType": "bytes32[]",
+            "name": "esmAggCommits",
+            "type": "bytes32[]"
+          }
+        ],
+        "stateMutability": "view",
+        "type": "function"
+      }
+    ]
+  },
+  "programBindings": {
+    "constructorTransaction": "0xb6c8bee3dd6b703e6ea35be1e3f0767c049527e36487df7a46025a3cc2a6d0f4",
+    "immutables": {
+      "_cachedDomainSeparator": "0xa703bd0154bea08edca4ba2b4883bbafea7ce64d97ffb368bcf53956ac7dce04",
+      "_cachedChainId": "0x0000000000000000000000000000000000000000000000000000000000007a69",
+      "_cachedThis": "0x0000000000000000000000004c2f7092c2ae51d986befee378e50bd4db99c901",
+      "_hashedName": "0x1dacb0af94f74bdb70b44f9860c72e82102a3d39b5b90130b994c88aa363ac27",
+      "_hashedVersion": "0xc89efdaa54c0f20c7adf612882df0950f5a951637e0307cdcb4c672f298b8bc6",
+      "_name": "0x4352495350000000000000000000000000000000000000000000000000000005",
+      "_version": "0x3100000000000000000000000000000000000000000000000000000000000001",
+      "honkVerifier": "0x000000000000000000000000fbc22278a96299d91d41c453234d97b4f5eb9b2d",
+      "onchainHonkVerifier": "0x0000000000000000000000001c85638e118b37167e9298c2268758e058ddfda0",
+      "dataAvailabilityVerifier": "0x000000000000000000000000367761085bf3c12e5da2df99ac6e1a824612b8fb",
+      "availabilityFinalizationWindow": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "inputAvailabilitySigner": "0x000000000000000000000000f39fd6e51aad88f6f4ce6ab8827279cfffb92266"
+    },
+    "receiptVerifier": "0x4ee6ecad1c2dae9f525404de8555724e3c35d07b",
+    "imageId": "0x044146e78defc6ba69824924ff80b44fd94309c704484446992da90987d05122",
+    "checks": 12
+  },
+  "sealSha256": "5d3b6fee8d8b6c45ba64cb64c0f8a54c62cd04ee940febba3b182a8eff67602d",
+  "journalSha256": "d8ec285b97f1395941f67b9d6ef95b64da15ef0b0d0df9642a4f5b0b7eab83f3",
+  "guest": {
+    "app_exe_commit": "0x005e6e29fb03b36a77337f0eb1fcd67db48f81cc4d8939dc44d578e4e43d2d26",
+    "app_vm_commit": "0x009034802c4d22df352e22772fc613453a77e387b95479ef296bbef78edc588a"
+  },
+  "proxyImplementations": {
+    "0x84ea74d481ee0a5332c457a4d796187f6ba67feb": "0xc3e53f4d16ae77db1c982e75a937b9f60fe63690",
+    "0xa513e6e4b8f2a923d98304ec87f64353c4d5c853": "0x0165878a594ca255338adfa4d48449f69242eb8f"
+  },
+  "censusRoot": "20580959834638152065919205885441188084827021045142921989212376402438878960063",
+  "committeeKeyCommitment": "0x2aea2ba0595592b8b992f8670bfa62baaed31d8b7dc167cf94603955f2f9db0c",
+  "paramsHash": "0x1b2620f6a5919d5ee19a51f34026369816f479efd0404b56585ad37d31c52317"
+}

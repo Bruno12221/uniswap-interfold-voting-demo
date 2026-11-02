@@ -1,0 +1,47 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.keystore
+.npmrc
+
+# Private work and participant material
+.local/
+.private/
+private/
+scratch/
+research-private/
+fixtures/private/
+deployments/local/
+deployments/private/
+*.private.*
+*.witness
+*.wtns
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# Dependencies, builds and proof work
+node_modules/
+.pnpm-store/
+target/
+dist/
+build/
+out/
+cache/
+coverage/
+artifacts/
+proof-work/
+.next/
+.vercel/
+
+# Local tools and operating system files
+.tools/
+.DS_Store
+*.swp
+*.swo
+__pycache__/
+*.pyc

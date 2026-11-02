@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "sourceRevision": "4ace535c1ff4d7897ec958a943cb45c55dc298a7",
+  "profileHash": "0x9e93975590b692ffa4996343f6a0abbf7dc112ecac608a0df018a64ead4510bf",
+  "censusMode": "merkle",
+  "presets": {
+    "insecure-512": {
+      "crispAcirSha256": "0x891d71a9c2f199455d256237e631c2e198c05b0298ee6509ab6fb9fd8582e633",
+      "encryptionCt0AcirSha256": "0xab5323341932242d7ddb63e0bfe5b54874d0a1b5e94d66cca801d41666cf0b19",
+      "encryptionCt1AcirSha256": "0xa07e41a0926abfc5c7c99bc1c71594299ac02ec6801e2cc7e482c18edc728e0f"
+    },
+    "secure-8192": {
+      "crispAcirSha256": "0xc7a4fc9b6ff3513a65be4b97afa77de439b700fa34e171b287d2de65b16f32ec",
+      "encryptionCt0AcirSha256": "0x26c504bf23026afc3ea80a0c075e8e4e623aa9b20de9e9dc25b7147dcf2cffeb",
+      "encryptionCt1AcirSha256": "0xc85ebbda1bb67cea753b55e18e87c62b4520d5131a35d0a9dddadc23779ae850"
+    }
+  },
+  "foldAcirSha256": "0xd224e9d437f173d411cd6b92d76f45c0a557f370596b2f67e804fbed32a8b537",
+  "encryptionFoldAcirSha256": "0x1174d599a1503fd4edaa4558f0aeef99ecb826349d3bacd0de9b96915758d9e4",
+  "verifierSourceSha256": "0xc8cf405609688c10619eb36b790e1365c3cba7fb697578dec71f3627838da5db",
+  "verifierArtifacts": {
+    "HonkVerifier": {
+      "creationTemplateSha256": "0x6a74d1f0c716753686e0fbcc82a1e4e30ed28b7214f069976e76af172da6744c",
+      "linkReferences": {
+        "project/contracts/verifiers/CRISPVerifier.sol": {
+          "RelationsLib": [
+            {
+              "length": 20,
+              "start": 6022
+            }
+          ],
+          "ZKTranscriptLib": [
+            {
+              "length": 20,
+              "start": 3291
+            }
+          ]
+        }
+      }
+    },
+    "RelationsLib": {
+      "creationTemplateSha256": "0x0d40f265c3af1f1866bfc729d24e53ba3a38ef39ded61d4b420b125d7f8839b8",
+      "linkReferences": {}
+    },
+    "ZKTranscriptLib": {
+      "creationTemplateSha256": "0x67f508a9baaea1411156aabcd6267c35ffdcfaefaa96435d7eda1e8a372a5cb1",
+      "linkReferences": {}
+    }
+  }
+}
